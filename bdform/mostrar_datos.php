@@ -97,7 +97,7 @@
 </head>
 <body>
 
-<button onclick="window.location.href='Index.html'">Regresar</button>
+<button onclick="window.location.href='index.html'">Regresar</button>
 <?php
 include("conexion.php");
 
