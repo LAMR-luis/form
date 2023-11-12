@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['id'])) {
     $sql = "DELETE FROM registros WHERE id=$id";
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: index.php");
+        header("Location: index.html");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
